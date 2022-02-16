@@ -1,0 +1,6 @@
+# Add your personal details here, then change to a .py: privates.py
+
+my_sender_email = "Emailaddress@internet.com"
+my_password = "Hunter69"
+
+the_receiver_email = "Otheremailaddress@internet.com"

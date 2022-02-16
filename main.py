@@ -1,14 +1,15 @@
 import smtplib, ssl
+from privates import *
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 import search_function
 import time
 
-sender_email = "JWood.Droid@gmail.com"
-password = "Ii3Jy4Masr7z"
+sender_email = my_sender_email
+password = my_password
 
-receiver_email = "emerica4u@hotmail.com"
+receiver_email = the_receiver_email
 
 #NUMBER_OF_RESULTS = 20
 query_strings = ["Fragrance", "New Fragrance Release", "Discontinued Fragrance"]
