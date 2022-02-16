@@ -5,17 +5,17 @@ from email.mime.multipart import MIMEMultipart
 import search_function
 import time
 
-sender_email = "jwood.droid@gmail.com"
+sender_email = "JWood.Droid@gmail.com"
 password = "Ii3Jy4Masr7z"
 
 receiver_email = "emerica4u@hotmail.com"
 
-NUMBER_OF_RESULTS = 20
+#NUMBER_OF_RESULTS = 20
 query_strings = ["Fragrance", "New Fragrance Release", "Discontinued Fragrance"]
 
 for i in range(0, len(query_strings)):
-    text = search_function.run_a_search(query_strings[i], NUMBER_OF_RESULTS)
-    html = search_function.run_a_search_html(query_strings[i], NUMBER_OF_RESULTS)
+    text = search_function.run_a_search(query_strings[i])
+    html = search_function.run_a_search_html(query_strings[i])
 
     message = MIMEMultipart("alternative")
     message["Subject"] = f'{query_strings[i]} Watchdog'
