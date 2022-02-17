@@ -1,3 +1,5 @@
+# Listing Youtube search results for user-chosen querys, then emailing a list of the most recent videos relevant to the query. 
+
 # Forked from the below
 # [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
 
