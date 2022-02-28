@@ -36,6 +36,7 @@ for i in range(0, len(query_strings)):
             sender_email, receiver_email, message.as_string()
         )
     print(f"{[i + 1]} email(s) sorted.")
+
     time.sleep(5)
 
 
